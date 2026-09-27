@@ -1,0 +1,11 @@
+@model Bai2_BookManagement.Models.Book
+@{
+    ViewData["Title"] = "Chi tiết sách";
+}
+
+<h1>Chi tiết sách</h1>
+<p><b>Id:</b> @Model.Id</p>
+<p><b>Tên sách:</b> @Model.Name</p>
+<p><b>Giá:</b> @Model.Price</p>
+
+<a class="btn" asp-action="Index">Quay lại</a>
